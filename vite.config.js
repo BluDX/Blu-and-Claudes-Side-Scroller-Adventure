@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: './',
+  base: '/blu-claude-side-scroller-adventure/',
   build: {
     rollupOptions: {
       output: {
