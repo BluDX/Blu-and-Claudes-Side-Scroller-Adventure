@@ -11,12 +11,13 @@ export default class MenuScene extends Phaser.Scene {
     const height = this.cameras.main.height;
 
     // Title
-    const title = this.add.text(width / 2, height / 3, 'SIDE-SCROLLER\nADVENTURE', {
-      fontSize: '48px',
+    const title = this.add.text(width / 2, height / 3, "BLU & CLAUDE'S\nSIDE-SCROLLER\nADVENTURE", {
+      fontSize: '40px',
       fontFamily: 'Arial',
       fill: '#ffffff',
       align: 'center',
-      fontStyle: 'bold'
+      fontStyle: 'bold',
+      lineSpacing: 8
     });
     title.setOrigin(0.5);
 

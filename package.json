@@ -1,7 +1,7 @@
 {
-  "name": "side-scroller-game",
+  "name": "blu-claude-side-scroller-adventure",
   "version": "1.0.0",
-  "description": "A side-scrolling platformer game built with Phaser.js",
+  "description": "Blu & Claude's Side-Scroller Adventure - A platformer game built with Phaser.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
