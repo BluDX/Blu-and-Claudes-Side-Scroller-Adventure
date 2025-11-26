@@ -1,0 +1,121 @@
+{
+  "name": "Level 1 - Green Hills",
+  "width": 3000,
+  "height": 576,
+  "background": "#87CEEB",
+  "playerStart": { "x": 100, "y": 400 },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 544,
+      "tiles": [
+        { "type": "grass-left", "x": 0 },
+        { "type": "grass", "x": 70, "repeat": 40 },
+        { "type": "grass-right", "x": 2930 }
+      ]
+    },
+    {
+      "x": 300,
+      "y": 450,
+      "tiles": [
+        { "type": "grass-left", "x": 0 },
+        { "type": "grass", "x": 70, "repeat": 2 },
+        { "type": "grass-right", "x": 210 }
+      ]
+    },
+    {
+      "x": 500,
+      "y": 350,
+      "tiles": [
+        { "type": "grass-left", "x": 0 },
+        { "type": "grass", "x": 70, "repeat": 2 },
+        { "type": "grass-right", "x": 210 }
+      ]
+    },
+    {
+      "x": 700,
+      "y": 300,
+      "tiles": [
+        { "type": "grass-left", "x": 0 },
+        { "type": "grass", "x": 70 },
+        { "type": "grass-right", "x": 140 }
+      ]
+    },
+    {
+      "x": 900,
+      "y": 400,
+      "tiles": [
+        { "type": "stone-left", "x": 0 },
+        { "type": "stone", "x": 70, "repeat": 2 },
+        { "type": "stone-right", "x": 210 }
+      ]
+    },
+    {
+      "x": 1200,
+      "y": 350,
+      "tiles": [
+        { "type": "stone-left", "x": 0 },
+        { "type": "stone", "x": 70, "repeat": 3 },
+        { "type": "stone-right", "x": 280 }
+      ]
+    },
+    {
+      "x": 1500,
+      "y": 300,
+      "tiles": [
+        { "type": "grass-left", "x": 0 },
+        { "type": "grass", "x": 70, "repeat": 2 },
+        { "type": "grass-right", "x": 210 }
+      ]
+    },
+    {
+      "x": 1800,
+      "y": 420,
+      "tiles": [
+        { "type": "grass-left", "x": 0 },
+        { "type": "grass", "x": 70 },
+        { "type": "grass-right", "x": 140 }
+      ]
+    },
+    {
+      "x": 2100,
+      "y": 350,
+      "tiles": [
+        { "type": "stone-left", "x": 0 },
+        { "type": "stone", "x": 70, "repeat": 4 },
+        { "type": "stone-right", "x": 350 }
+      ]
+    }
+  ],
+  "enemies": [
+    { "x": 400, "y": 420, "type": "slime" },
+    { "x": 600, "y": 320, "type": "slime" },
+    { "x": 850, "y": 250, "type": "flying" },
+    { "x": 1000, "y": 370, "type": "slime" },
+    { "x": 1300, "y": 200, "type": "flying" },
+    { "x": 1600, "y": 270, "type": "slime" },
+    { "x": 1900, "y": 390, "type": "slime" },
+    { "x": 2200, "y": 200, "type": "flying" }
+  ],
+  "powerups": [
+    { "x": 350, "y": 430, "type": "coin" },
+    { "x": 450, "y": 370, "type": "coin" },
+    { "x": 550, "y": 330, "type": "coin" },
+    { "x": 650, "y": 280, "type": "mushroom" },
+    { "x": 750, "y": 380, "type": "coin" },
+    { "x": 950, "y": 380, "type": "star" },
+    { "x": 1100, "y": 320, "type": "coin" },
+    { "x": 1250, "y": 330, "type": "coin" },
+    { "x": 1400, "y": 280, "type": "coin" },
+    { "x": 1550, "y": 280, "type": "mushroom" },
+    { "x": 1700, "y": 400, "type": "coin" },
+    { "x": 1850, "y": 370, "type": "coin" },
+    { "x": 2000, "y": 320, "type": "star" },
+    { "x": 2150, "y": 330, "type": "coin" },
+    { "x": 2300, "y": 330, "type": "coin" },
+    { "x": 2450, "y": 280, "type": "coin" },
+    { "x": 2600, "y": 330, "type": "mushroom" },
+    { "x": 2700, "y": 380, "type": "coin" }
+  ],
+  "goal": { "x": 2800, "y": 400 }
+}
