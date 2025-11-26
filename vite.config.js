@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/blu-claude-side-scroller-adventure/',
+  base: '/Blu-and-Claudes-Side-Scroller-Adventure/',
   build: {
     rollupOptions: {
       output: {
